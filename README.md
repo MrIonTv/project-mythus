@@ -1,6 +1,8 @@
 # Mythus 𓂀
+> 🌐 [Español](README.es.md) | **English**
 
 > *"In the beginning was the Word, and the Word compiled."*
+
 
 Mythus is an esoteric, statically-typed programming language inspired by the religious
 and spiritual traditions of the world. Code is not merely written — it is **declared**, 
@@ -12,11 +14,11 @@ and spiritual traditions of the world. Code is not merely written — it is **de
 
 ### `.dogma`
 The **law**. A `.dogma` file defines:
-- All hardwired (compile-time constant) values the program may use
+- All hardwired (compile-time constant) values the program may use.
 - The public surface of classes — a class declared in `.mythus` only becomes
-  visible to the outside world if its `.dogma` marks it as such
+  visible to the outside world if its `.dogma` marks it as such.
 - Inheritance between dogmas: a `.dogma` may have child dogmas, establishing
-  a hierarchy of doctrine
+  a hierarchy of doctrine.
 
 #### The Schism System
 Religious myths do not exist in a single form — the same concept diverges across
@@ -40,12 +42,12 @@ on the faith that tells it.
 // soul.dogma — a concept all traditions recognize
 primordial Soul {
     eternal name
-    void transcend()
-    void judge()
+    abyss transcend()
+    abyss judge()
 }
 
 // buddhist.dogma — one tradition's interpretation
-schism BuddhistSoul inherits Soul {
+schism BuddhistSoul begets Soul {
     eternal cycles = 6
     reveal transcend()
     conceal judge()
@@ -80,7 +82,7 @@ No single faith dominates — all traditions contribute equally to the language.
 
 ## Building
 
-> Requires JDK 17+ and Gradle.
+> Requires JDK 21+ and Gradle.
 
 ```bash
 git clone https://github.com/MrIonTv/project-mythus.git
