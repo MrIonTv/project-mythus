@@ -1,7 +1,7 @@
 # Mythus Keyword Repertoire
 
 > All religious, mythological, and spiritual traditions are valid sources.
-> Every keyword carries meaning beyond syntax — it carries doctrine.
+> Every keyword carries meaning beyond syntax, it carries doctrine.
 
 ---
 
@@ -55,60 +55,67 @@
 
 ## Control Flow
 
-| Keyword      | Tradition             | Suggested Role                        |
-|--------------|-----------------------|---------------------------------------|
-| `pray`       | Universal             | function call / invocation            |
-| `creed`      | Christian             | conditional (if)                      |
-| `heresy`     | Christian / Greek     | alternative branch (else)             |
-| `samsara`    | Buddhist / Hindu      | while loop                            |
-| `pilgrimage` | Islam / Christian     | for loop (journey with a destination) |
-| `ascend`     | Universal             | return value                          |
-| `nirvana`    | Buddhist              | break out of control flow             |
-| `persist`    | Buddhist              | next iteration (continue)             |
-| `crossroads` | Greek / Roman         | switch / when                         |
-| `path`       | Greek / Roman         | each case in the crossroads           |
-| `anathema`   | Greek / Roman         | default case in the crossroads        |
-| `curse`      | Universal / Occultism | throw exception                       |
-| `ordeal`     | Universal             | try block                             |
-| `absolution` | Christian             | catch exception                       |
-| `amen`       | Universal             | finally block                         |
+| Keyword      | Tradition             | Suggested Role                                   |
+|--------------|-----------------------|--------------------------------------------------|
+| `pray`       | Universal             | function call / invocation                       |
+| `apu`        | Andean                | Conditional (if) — aks the deiti of the mountain |
+| `ukhu`       | Andean / Quechua      | Alternative branch (else) — the world bellow     |
+| `bardo`      | Tibetan Buddhist      | The other branch — not true neither false        |
+| `samsara`    | Buddhist / Hindu      | while loop                                       |
+| `pilgrimage` | Islam / Christian     | for loop (journey with a destination)            |
+| `ascend`     | Universal             | return value                                     |
+| `nirvana`    | Buddhist              | break out of control flow                        |
+| `persist`    | Buddhist              | next iteration (continue)                        |
+| `crossroads` | Greek / Roman         | switch / when                                    |
+| `path`       | Greek / Roman         | each case in the crossroads                      |
+| `anathema`   | Greek / Roman         | default case in the crossroads                   |
+| `curse`      | Universal / Occultism | throw exception                                  |
+| `ordeal`     | Universal             | try block                                        |
+| `absolution` | Christian             | catch exception                                  |
+| `amen`       | Universal             | finally block                                    |
 
 ---
 
 ## Data Types
 
-| Keyword        | Tradition              | Suggested Role         |
-|----------------|------------------------|------------------------|
-| `soul`         | Universal              | generic object / Any   |
-| `abyss`        | Gnostic / Lovecraftian | void                   |
-| `truth`        | Universal              | Boolean true           |
-| `heresy`       | Christian              | Boolean false          |
-| `eternal`      | Universal              | constant (val / const) |
-| `mortal`       | Universal              | mutable variable (var) |
-| `rune`         | Norse                  | char / character       |
-| `chronicle`    | Medieval               | String                 |
-| `census`       | Roman / Biblical       | Int                    |
-| `cubit`        | Hebrew / Egyptian      | Float / Double         |
-| `legion`       | Christian / Roman      | Array / collection     |
-| `congregation` | Christian              | List                   |
-| `covenant`     | Hebrew                 | Map / dictionary       |
-| `trinity`      | Christian              | Three-element tuple    |
+| Keyword        | Tradition              | Suggested Role / Description                                       |
+|----------------|------------------------|--------------------------------------------------------------------|
+| `soul`         | Universal              | generic object / Any                                               |
+| `nihil`        | Buddhist / Latin       | absence of value (null)                                            |
+| `yanantin`     | Universal / Andina     | Trivalence type — "the world is not always black and white"        |
+| `kay`          | Quechua                | Common true boolean — "what is"                                    |
+| `mana`         | Quechua                | Common false boolean — "what is not"                               |
+| `tinkuy`       | Quechua                | Uncommon unknown boolean — "the limit of the known"                |
+| `eternal`      | Universal              | constant (val / const)                                             |
+| `mortal`       | Universal              | mutable variable (var)                                             |
+| `rune`         | Norse                  | char / character                                                   |
+| `chronicle`    | Medieval               | String                                                             |
+| `census`       | Roman / Biblical       | Int                                                                |
+| `apeiron`      | Greek / Anaximander    | Float / Double — "the unlimited and inimaginable"                  |
+| `monad`        | Pythagoreanism         | Positive Int — "the indivisible One from which everything emerges" |
+| `tetractys`    | Pythagoreanism         | Constant 10 — el número sagrado de la escuela                      |
+| `phi`          | Greek                  | Constant φ = 1.618... — "the golden ratio"                         |
+| `tau`          | Math / Greek           | Constant τ = 6.283... — "the circle"                               |
+| `legion`       | Christian / Roman      | Array / collection                                                 |
+| `congregation` | Christian              | List                                                               |
+| `covenant`     | Hebrew                 | Map / dictionary                                                   |
+| `trinity`      | Christian              | Three-element tuple                                                |
 
 ---
 
 ## Classes & Objects
 
-| Keyword    | Tradition           | Suggested Role                                  |
-|------------|---------------------|-------------------------------------------------|
-| `order`    | Christian / Masonic | concrete class                                  |
-| `summon`   | Occultism           | instantiate object (new)                        |
-| `self`     | Buddhist            | reference to current object (this)              |
-| `nihil`    | Buddhist / Latin    | absence of value (null)                         |
-| `divine`   | Universal           | belongs to the class, not the instance (static) |
-| `genesis`  | Christian / Hebrew  | constructor                                     |
-| `requiem`  | Christian           | destructor / cleanup                            |
-| `pantheon` | Greek               | enumeration (enum)                              |
-| `idol`     | Universal           | singleton / object declaration                  |
+| Keyword    | Tradition              | Suggested Role                                  |
+|------------|------------------------|-------------------------------------------------|
+| `order`    | Christian / Masonic    | concrete class                                  |
+| `summon`   | Occultism              | instantiate object (new)                        |
+| `self`     | Buddhist               | reference to current object (this)              |
+| `divine`   | Universal              | belongs to the class, not the instance (static) |
+| `genesis`  | Christian / Hebrew     | constructor                                     |
+| `requiem`  | Christian              | destructor / cleanup                            |
+| `pantheon` | Greek                  | enumeration (enum)                              |
+| `idol`     | Universal              | singleton / object declaration                  |
+| `abyss`    | Gnostic / Lovecraftian | void                                            |
 
 ---
 
@@ -135,6 +142,16 @@
 
 ---
 
+## Compiler Diagnostics
+
+| Keyword     | Level               | Configurable | Tradition | Suggested Role / Description                           |
+|-------------|---------------------|--------------|-----------|--------------------------------------------------------|
+| `ragnarok`  | Fatal Error         | No           | Nordic    | The end of existence — "execution stopped"             |
+| `pachakuti` | Data Transformation | No           | Andean    | Change of types — "the trascendence of data"           |
+| `augur`     | Notification        | Yes (.dogma) | Roman     | Debug messages — "the dogma controls the world augurs" |
+
+---
+
 ## Miscellaneous
 
 | Keyword       | Tradition          | Suggested Role              |
@@ -148,6 +165,8 @@
 | `stigma`      | Christian          | annotation / decorator      |
 | `forsaken`    | Universal          | deprecated code             |
 | `reformation` | Christian          | method override             |
+
+---
 
 # The Delimitation
 Code blocks in Mythus are called **cloisters**, delimited by `{` and `}`. 
@@ -183,11 +202,11 @@ Each one demonstrates the language breathing its doctrine into form.
 The simplest rite. A single proclamation to the world.
 
 ```dogma
-// hello.dogma
+§  hello.dogma
 eternal chronicle SALUTATION = "Mythus"
 ```
 ```mythus
-// hello.mythus
+§  hello.mythus
 order Greeting {
     genesis() {
         proclaim(SALUTATION)
@@ -207,14 +226,14 @@ rite {
 `mortal` values may change throughout execution.
 
 ```dogma
-// world.dogma
+§  world.dogma
 eternal chronicle LANGUAGE_NAME = "Mythus"
 eternal census    VERSION       = 1
-eternal truth     IS_ESOTERIC   = truth
+eternal yanantin  IS_ESOTERIC   = kay
 ```
 
 ```mythus
-// world.mythus
+§  world.mythus
 rite {
     mortal census age = 0
     age = age + 1
@@ -231,13 +250,13 @@ A class declared in `.mythus` is private by default.
 Only what the `.dogma` `reveal`s becomes accessible.
 
 ```dogma
-// temple.dogma
+§  temple.dogma
 reveal order Temple
 conceal order Crypt
 ```
 
 ```mythus
-// temple.mythus
+§  temple.mythus
 order Temple {
     mortal chronicle name
 
@@ -251,7 +270,7 @@ order Temple {
 }
 
 order Crypt {
-    // only accessible within this .mythus
+    §  only accessible within this .mythus
     mortal census depth = 4
 }
 ```
@@ -263,13 +282,13 @@ order Crypt {
 A child order inherits nature and behavior from its parent.
 
 ```dogma
-// beings.dogma
+§  beings.dogma
 reveal order Deity
 reveal order Demigod
 ```
 
 ```mythus
-// beings.mythus
+§  beings.mythus
 order Deity {
     mortal chronicle title
 
@@ -278,7 +297,7 @@ order Deity {
     }
 
     reveal abyss descend() {
-        proclaim("The deity " + self.title + " walks among mortals.")
+        proclaim("The deity ", self.title, " walks among mortals.")
     }
 }
 
@@ -291,7 +310,7 @@ order Demigod begets Deity {
     }
 
     reformation abyss descend() {
-        proclaim("The demigod " + self.title + " born of " + self.mortalParent + " descends.")
+        proclaim("The demigod ", self.title, " born of ", self.mortalParent, " descends.")
     }
 }
 
@@ -312,33 +331,33 @@ The same concept — the soul — interpreted by different traditions.
 The `.mythus` code does not change. The `doctrine` does.
 
 ```dogma
-// soul.dogma — the universal concept
+§  soul.dogma — the universal concept
 primordial Soul {
     eternal chronicle name
     abyss transcend()
     abyss judge()
 }
 
-// buddhist.dogma
+§  buddhist.dogma
 schism BuddhistSoul proceeds Soul {
     eternal census cycles = 6
     reveal abyss transcend()
     conceal abyss judge()
 }
 
-// christian.dogma
+§  christian.dogma
 schism ChristianSoul proceeds Soul {
     eternal chronicle afterlife = "heaven"
     reveal abyss transcend()
     reveal abyss judge()
 }
 
-// main.dogma
+§  main.dogma
 doctrine buddhist
 ```
 
 ```mythus
-// ceremony.mythus
+§  ceremony.mythus
 order Ceremony {
     mortal Soul soul
 
@@ -362,23 +381,23 @@ rite {
 ## 6. Control Flow
 
 ```mythus
-// judgment.mythus
+§  judgment.mythus
 rite {
     mortal census souls = 10
 
-    // creed / heresy — conditional
-    creed (souls > 5) {
+    §  apu / ukhu — conditional
+    apu (souls > 5) {
         proclaim("The congregation is worthy.")
-    } heresy {
+    } ukhu {
         proclaim("The congregation is too small.")
     }
 
-    // pilgrimage — for loop
+    §  pilgrimage — for loop
     pilgrimage (mortal census i = 0; i < souls; i++) {
         proclaim("Soul number: " + i)
     }
 
-    // samsara — while loop
+    §  samsara — while loop
     mortal census count = 3
     samsara (count > 0) {
         proclaim("Chanting... " + count)
@@ -392,21 +411,21 @@ rite {
 ## 7. Pattern Matching — crossroads / path / anathema
 
 ```mythus
-// tradition.mythus
+§  tradition.mythus
 rite {
     mortal chronicle faith = "norse"
 
     crossroads (faith) {
-        path "norse"     => proclaim("Hail Odin, the Allfather.");
-        path "egyptian"  => proclaim("Praise Ra, lord of the sun.");
-        path "hindu"     => proclaim("Om Namah Shivaya.");
+        path "norse"     => proclaim("Hail Odin, the Allfather.")
+        path "egyptian"  => proclaim("Praise Ra, lord of the sun.")
+        path "hindu"     => proclaim("Om Namah Shivaya.")
         path "greek"     => {
                             proclaim("Glory to Zeus, ruler of Olympus.")
                             proclaim("The lesser paths are easy to go, 
-                            the cloisters shall leave trough the nirvana");
-                            nirvana;
+                            the cloisters shall leave trough the nirvana")
+                            nirvana
                             }
-        anathema         => 
+        anathema         => proclaim("There is no god in the end of the lands")
     }
 }
 ```
@@ -416,16 +435,16 @@ rite {
 ## 8. Exception Handling
 
 ```mythus
-// ritual.mythus
+§  ritual.mythus
 order SacredRitual {
     reveal abyss perform(census energy) {
         ordeal {
-            oracle (energy <= 0) {
+            apu (energy <= 0) {
                 curse "NotEnoughEnergyException"("The ritual requires more energy.")
             }
             proclaim("The ritual succeeds.")
         } absolution (NotEnoughEnergyException e) {
-            proclaim("Ritual failed: " + e.message)
+            proclaim("Ritual failed: ", e.message)
         } amen {
             proclaim("The altar is cleansed regardless.")
         }
@@ -443,18 +462,18 @@ rite {
 ## 9. Collections
 
 ```mythus
-// pantheon.mythus
+§  pantheon.mythus
 rite {
-    // legion — array
+    §  legion — array
     mortal legion gods = ["Odin", "Thor", "Freya", "Loki"]
 
-    // congregation — list
+    §  congregation — list
     mortal congregation saints = summon congregation()
     saints.add("Francis")
     saints.add("Augustine")
     saints.add("Teresa")
 
-    // covenant — map / dictionary
+    §  covenant — map / dictionary
     mortal covenant temples = summon covenant()
     temples.set("Greece",  "Parthenon")
     temples.set("Egypt",   "Karnak")
@@ -469,7 +488,7 @@ rite {
 ## 10. Async — prophecy / vigil
 
 ```mythus
-// oracle.mythus
+§  oracle.mythus
 order ProphecyOracle {
     reveal prophecy chronicle seekTruth(chronicle question) {
         mortal chronicle answer = vigil fetchFromBeyond(question)
@@ -477,7 +496,7 @@ order ProphecyOracle {
     }
 
     conceal prophecy chronicle fetchFromBeyond(chronicle question) {
-        // simulated async operation
+        §  simulated async operation
         ascend "The answer to '" + question + "' is hidden in the stars."
     }
 }
@@ -496,7 +515,7 @@ rite {
 A `.dogma` may have children, establishing a hierarchy of doctrine.
 
 ```dogma
-// abrahamic.dogma — parent dogma
+§  abrahamic.dogma — parent dogma
 eternal chronicle ORIGIN = "Abraham"
 
 reveal order Prophet
@@ -504,7 +523,7 @@ reveal order Scripture
 ```
 
 ```dogma
-// islamic.dogma — child of abrahamic.dogma
+§  islamic.dogma — child of abrahamic.dogma
 invoke abrahamic
 
 eternal chronicle HOLY_BOOK  = "Quran"
@@ -515,7 +534,7 @@ reveal order Mosque
 ```
 
 ```dogma
-// jewish.dogma — child of abrahamic.dogma
+§  jewish.dogma — child of abrahamic.dogma
 invoke abrahamic
 
 eternal chronicle HOLY_BOOK  = "Torah"
@@ -526,7 +545,7 @@ reveal order Synagogue
 ```
 
 ```mythus
-// faith.mythus
+§  faith.mythus
 order Mosque {
     reveal abyss pray() {
         proclaim("Allahu Akbar. The call to prayer echoes.")
@@ -553,7 +572,7 @@ rite {
 ## 12. Lambda — specter
 
 ```mythus
-// shadow.mythus
+§  shadow.mythus
 rite {
     mortal specter bless = (chronicle name) => {
         ascend "May " + name + " find peace."
@@ -564,6 +583,90 @@ rite {
 }
 ```
 
+## 13. The Monad
+```mythus
+§ Example of using a monad in Mythus
+
+§{
+    A monad represents an indivisible quantity.
+    If an operation fragments it, it transcends the apeiron.
+    The compiler explicitly marks this transition.
+}§
+
+rite {
+
+    §{ Valid monad declarations, positive integers }§
+    mortal monad disciples = 12
+    mortal monad commandments = 10
+    mortal monad pillars = 5
+
+    §{ Operations that preserve the nature of the monad }§
+    mortal monad total = disciples + commandments
+    proclaim("Total: ", total) § 22, still a monad
+    
+    mortal monad product = pillars * commandments
+    proclaim("Product: ", product) § 50, still a monad
+    
+    §{ Exact division — the result is an integer.
+    The nature of the monad is preserved.
+    }§
+    
+    mortal monad half = commandments / 2
+    proclaim("Exact half: ", half) § 5, still a monad
+    
+    §{
+    Inexact division — the monad transcends the apeiron.
+    The compiler issues a glossa of transcendence:
+    ⊕ Pachakuti: monad 'disciples' transcends the apeiron on line 32.
+    }§
+    mortal apeiron fragment = disciples / 5
+    proclaim("Fragment: ", fragment) 
+    
+    §{ The monad cannot be zero or negative }§
+    
+    §{ The following lines would produce a compilation error: }§
+    
+    § mortal monad void_count = 0 ⛧ Ragnarok: monad cannot be nihil
+    
+    § mortal monad debt = -3 ⛧ Ragnarok: monad does not admit negation — use census
+    
+    §{ Comparison between monads }§
+    apu (disciples > pillars) {
+        proclaim("Disciples surpass pillars.")
+    
+    } ukhu {
+        proclaim("Pillars surpass disciples.")
+    
+    } bardo {
+        proclaim("They are equivalent in nature.")
+    
+    }
+    §{ If there is no bardo, the ukhu absorbs the result }§
+    §{
+    The tetractys, the sacred Pythagorean number.
+    Predefined constant of the language.
+    1 + 2 + 3 + 4 = 10, the perfect form.
+    }§
+    
+    mortal monad sacred = tetractys
+    proclaim("The tetractys: ", sacred) § 10
+    
+    
+    §{ When a monad interacts with phi, the result immediately 
+    transcends the apeiron because phi is irrational by nature. }§
+    
+    mortal apeiron goldenRatio = disciples * phi
+    proclaim("Golden ratio of disciples: " + goldenRatio)
+    
+    §{ The monad in collections—a legion of monads—represents a 
+    sequence of indivisible quantities.}§ 
+    mortal legion<monad> primes = [2, 3, 5, 7, 11, 13] 
+    
+    pilgrimage (mortal monad i = 0; i < 6; i++) { 
+        proclaim("Sacred cousin: " + primes[i]) 
+    }
+}
+```
 ---
 
 > *Each program is a scripture. Each execution, a rite.*
