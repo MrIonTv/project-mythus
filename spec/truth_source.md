@@ -57,7 +57,7 @@ Each rule implicitly defines three zones for three-valued logic:
 | Outside the declared range | `mana` | The condition is false |
 | At the threshold boundary | `tinkuy` | Undefined zone — gradient|
 
-The compiler automatically calculates the `tinkuy` zone from the boundaries of the declared range. The programmer does not need to specify it—it emerges from the rule.
+The compiler automatically calculates the `tinkuy` zone from the boundaries of the declared range. The programmer does not need to specify it, it emerges from the rule.
 
 ---
 
@@ -87,8 +87,16 @@ The compiler emits a **⊕ Pachakuti** if a fuzzy range is declared over `census
 ### `monad` — excluded from fuzzy logic ✖
 The indivisible nature of the `monad` is incompatible with graduality. A `monad` cannot be "almost true". Declaring a fuzzy `truth source` on `monad` produces:
 
+### `logos` — exact rational domain ✖
+The exactness of `logos` makes fuzzy logic unnecessary.
+
+`1/3 == 1/3` is always `kay` — no gradient, no `tinkuy`.
+Declaring a `truth source` on `logos` produces:
+
+⛧ Ragnarök: logos does not admit fuzzy logic, the exact ratio has no threshold - line <lineNumber>.
+
 ```
-⛧ Ragnarök: monad does not admit fuzzy logic — its nature is indivisible — line 8.
+⛧ Ragnarök: monad does not admit fuzzy logic - its nature is indivisible - line <lineNumber>.
 ```
 
 ---
@@ -245,7 +253,7 @@ apu (<condition>) {
 If the result is `tinkuy` and there is no `bardo` branch:
 
 ```
-⛧ Ragnarök : condition in tinkuy state without a bardo branch for resolution — line 23.
+⛧ Ragnarök : condition in tinkuy state without a bardo branch for resolution - line  <lineNumber>.
 ```
 
 ### With bardo branch
@@ -278,7 +286,7 @@ truth source {
 The compiler emits an **𓂀 Augur** when it detects an unreachable rule:
 
 ```
-𓂀 Augur : rule apeiron ^ apeiron on line 8 will never be reached — line 8.
+𓂀 Augur : rule apeiron ^ apeiron on line <lineNumber> will never be reached - line <lineNumber>.
 ```
 
 ---
