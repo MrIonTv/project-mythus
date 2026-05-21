@@ -52,7 +52,11 @@ The following transmutations are defined in the core of the language and **canno
 `rune` | `chronicle` | Character to text — `'A'` → `"A"` |
 `rune` | `census` | Character to its numeric value — `'A'` → `65` |
 `chronicle` | `legion` | Text to rune collection |
-
+| `logos` | `apeiron` | Fraction to Float — `1/2` → `0.5` (loses accuracy) |
+| `logos` | `chronicle` | Fraction to Text — `1/2` → `"1/2"` |
+| `logos` | `census` | Fraction to Integer — Truncated `3/2` → `1` |
+| `census` | `logos` | Integer to Fraction — `3` → `3/1` |
+| `apeiron` | `logos` | Float to Exact Fraction — `0.1` → `3602879701896397/36028797018963968` |
 ### Protecting default transmutations
 
 Attempting to override a default transmutation in a `truth source` results in a compilation error:
