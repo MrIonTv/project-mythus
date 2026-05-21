@@ -51,12 +51,19 @@ El sistema de tipos es estático y explícito:
 | `census`    | Entero               | Romana / Bíblica     |
 | `monad`     | Positivo             | Pitagorica           |
 | `apeiron`   | Float / Double       | Griega / Anaximandro |
+| `logos`     | Racional exacto      | Griega / Pitagórica  |
 | `kay`       | Boolean verdadero    | Quechua              |
 | `mana`      | Boolean falso        | Quechua              |
 | `tinkuy`    | Booleano desconocido | Quechua              |
 | `rune`      | Char                 | Nórdica              |
 | `chronicle` | String               | Medieval             |
 | `nihil`     | null                 | Budista / Latina     |
+
+Un `logos` representa una fracción exacta — `1/2` es `1/2`, nunca `0.5`.
+A diferencia del `apeiron`, el `logos` no introduce error de representación
+y por tanto **no admite lógica difusa ni zona tinkuy** en comparaciones.
+Su costo de rendimiento es mayor — úsalo cuando la exactitud matemática
+prime sobre la velocidad. Para cálculo intensivo, `apeiron` es la elección correcta.
 
 ### Mutabilidad
 
@@ -65,7 +72,7 @@ El sistema de tipos es estático y explícito:
 | `eternal` | Constante (val / const)  | Universal  |
 | `mortal`  | Variable mutable (var)   | Universal  |
 
-Una variable `mortal` no inicializada produce un error en su primer uso. Toda constante `eternal` debe inicializarse en el punto de declaración.
+Una variable `mortal` no inicializada produce un nihil en su primer uso. Toda constante `eternal` debe inicializarse en el punto de declaración.
 
 ### Colecciones
 
