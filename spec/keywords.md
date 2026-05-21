@@ -92,6 +92,7 @@
 | `chronicle`    | Medieval               | String                                                             |
 | `census`       | Roman / Biblical       | Int                                                                |
 | `apeiron`      | Greek / Anaximander    | Float / Double — "the unlimited and inimaginable"                  |
+| `logos`        | Greek / Pythagoreanism | Exact rational number — the pure ratio expressed as a fraction     |
 | `monad`        | Pythagoreanism         | Positive Int — "the indivisible One from which everything emerges" |
 | `tetractys`    | Pythagoreanism         | Constant 10 — el número sagrado de la escuela                      |
 | `phi`          | Greek                  | Constant φ = 1.618... — "the golden ratio"                         |
